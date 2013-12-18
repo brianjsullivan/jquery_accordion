@@ -1,0 +1,38 @@
+body {
+    width:100%;
+    text-align:center;
+}
+.accordion {
+    margin:0 auto;
+    width: 500px;
+    border:1px dashed #000;
+    overflow:hidden;
+    box-shadow:2px 2px 5px #9a9a9a;
+}
+.tab {
+    padding: 5px 10px;
+    cursor: pointer;
+    position: relative;
+    margin:0;
+    font-weight:bold;
+    height:50px;
+    background-color:#efefef;
+    border-top:1px solid #000;
+    height:auto;
+}
+.tab:first-child {
+    border:none;
+}
+
+.tab:hover {
+    background-color:#a6fcf7;
+}
+.pane {
+    border-top:1px solid #dadada;
+    cursor:default;
+    display:none;
+    padding:10px;
+}
+
+.activeparent { background-color:#3bc3dc; }
+.activeparent:hover { background-color:#3bc3dc; }
